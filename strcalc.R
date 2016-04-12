@@ -10,7 +10,7 @@ compute <- function(input_string){
                    '-' = num0 - num1,
                    NA)
   if (is.na(result)) {
-    print('Uknown operator')
+    print('Unknown operator')
   }
     return (result)
   }
